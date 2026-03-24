@@ -1,4 +1,4 @@
-# Azure Sentinel SOC Lab (In Progress)
+# Azure Sentinel SOC Lab (Implementation & Lessons learned)
 
 ## Overview
 This project documents the implementation of a cloud-based Security Operations Centre (SOC) lab using Microsoft Sentinel. The objective is to simulate real-world monitoring and detection workflows within an Azure environment by ingesting logs, querying data, and exploring alerting capabilities.
