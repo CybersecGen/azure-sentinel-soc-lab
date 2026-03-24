@@ -51,28 +51,28 @@ No results were returned from the queries, indicating that log ingestion was not
 ## Analysis
 
 The lack of results suggests potential issues such as:
-	-	Data connectors not fully configured
-	-	Log Analytics agent not properly installed or connected
-	-	The virtual machine not successfully sending logs to the workspace
+- Data connectors not fully configured
+- Log Analytics agent not properly installed or connected
+- The virtual machine not successfully sending logs to the workspace
 
 ### Key Learnings
-	-	Log ingestion is critical for SIEM functionality and must be validated early
-	-	Microsoft Sentinel relies on Log Analytics for all data visibility
-	-	Misconfiguration of connectors or agents can silently prevent data flow
-	-	Troubleshooting cloud SIEM setups requires a structured validation approach
+- Log ingestion is critical for SIEM functionality and must be validated early
+- Microsoft Sentinel relies on Log Analytics for all data visibility
+- Misconfiguration of connectors or agents can silently prevent data flow
+- Troubleshooting cloud SIEM setups requires a structured validation approach
 
 ### Next Steps
-	-	Reconfigure data connectors and validate agent installation
-	-	Successfully ingest logs into the Log Analytics Workspace
-	-	Use KQL to query and analyse real log data
-	-	Implement basic detection rules and alerting
-	-	Simulate attack scenarios and investigate alerts
+- Reconfigure data connectors and validate agent installation
+- Successfully ingest logs into the Log Analytics Workspace
+- Use KQL to query and analyse real log data
+- Implement basic detection rules and alerting
+- Simulate attack scenarios and investigate alerts
 
 ## Future Improvements
-	-	Integrate additional data sources (e.g. Azure Activity Logs, Syslog)
-	-	Develop custom detection rules
-	-	Map findings to MITRE ATT&CK framework
-	-	Build end-to-end SOC investigation workflows
+- Integrate additional data sources (e.g. Azure Activity Logs, Syslog)
+- Develop custom detection rules
+- Map findings to MITRE ATT&CK framework
+- Build end-to-end SOC investigation workflows
 
 ## Project Context
 
