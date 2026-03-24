@@ -32,17 +32,17 @@ This project documents the implementation of a cloud-based Security Operations C
 
 To verify whether logs were successfully ingested, the following KQL queries were executed:
 
-```kql
-Heartbeat
-| take 10```
+	```kql
+	Heartbeat
+	| take 10```
 
-```kql
-SecurityEvent
-| take 10```
+	```kql
+	SecurityEvent
+	| take 10```
 
-```kql
-Event
-| take 10```
+	```kql
+	Event
+	| take 10```
 
 ## Outcome
 
